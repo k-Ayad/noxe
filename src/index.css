@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Montserrat:wght@400;500;600;700;800&display=swap");
+:root {
+  --bg-main: #131722;
+  --bg-light: #24baef;
+  --color-main: #fff;
+  --title-size: 3.5em;
+  --text-size: 1.25em;
+}
+
+body {
+  background-color: var(--bg-main) !important;
+  color: var(--color-main) !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+body h1 {
+  font-size: var(--title-size);
+  font-family: "Josefin Sans", sans-serif;
+}
+body p {
+  font-size: var(--text-size);
+  padding: 5px 0px;
+}
+
+footer {
+  border-top: rgba(255, 255, 255, 0.5) 0.3px solid;
+  font-size: 0.75em;
+  padding-top: 10px;
+}
+
+.movies-header::after {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 50%;
+  height: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.movies-header::before {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}/*# sourceMappingURL=index.css.map */
