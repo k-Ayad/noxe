@@ -36,8 +36,8 @@ export default function Home(props) {
                 <h1 className=' py-5'>Welcome {islogin? userName : 'in NOXE project'} </h1>
                 <p>you can track the most trending movies and tv shows on our website</p>
                 {islogin == false ? <div>
-                  <p>But first you should <Link to={'login'}>Login</Link> </p>
-                  <p>If you are visiting this website for the first time, you should <Link to={'register'}>Register</Link></p>
+                  <p>But first you should <Link to={'/login'}>Login</Link> </p>
+                  <p>If you are visiting this website for the first time, you should <Link to={'/register'}>Register</Link></p>
                 </div> : '' }
 
               </div>
